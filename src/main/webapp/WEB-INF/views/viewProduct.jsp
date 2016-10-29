@@ -14,7 +14,8 @@
             <div class="row">
 
                 <div class="col-md-5">
-                    <img src="###" alt="image" style="width:100%; height:300px"/>
+                    <img src="<c:url value="/resources/images/${product.productId}.png" /> " alt="image"
+                         style="width:100%;"/>
                 </div>
 
                 <div class="col-md-5">
@@ -22,15 +23,15 @@
                     <p>${product.productDescription}</p>
 
                     <p>
-                    <strong>Manufacturer</strong> : ${product.productManufacturer}
+                        <strong>Manufacturer</strong> : ${product.productManufacturer}
                     </p>
 
                     <p>
-                    <strong>Category</strong> : ${product.productCategory}
+                        <strong>Category</strong> : ${product.productCategory}
                     </p>
 
                     <p>
-                    <strong>Condition</strong> : ${product.productCondition}
+                        <strong>Condition</strong> : ${product.productCondition}
                     </p>
                     <h4>$${product.productPrice} USD</h4>
                 </div>
