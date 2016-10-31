@@ -14,7 +14,7 @@
                    commandName="product" enctype="multipart/form-data">
 
         <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name">Name</label> <form:errors path="productName" cssStyle="color: #ff0000"/>
             <form:input path="productName" id="name" class="form-Control"/>
         </div>
 
@@ -40,7 +40,7 @@
 
 
         <div class="form-group">
-            <label for="price">Price</label>
+            <label for="price">Price</label> <form:errors path="productName" cssStyle="color: #ff0000"/>
             <form:input path="productPrice" id="price" class="form-Control"/>
         </div>
 
@@ -50,7 +50,6 @@
 
             <label class="checkbox-inline"><form:radiobutton path="productCondition" id="condition"
                                                              value="new"/> New </label>
-
             <label class="checkbox-inline"><form:radiobutton path="productCondition" id="condition"
                                                              value="used"/> Used </label>
 
@@ -62,15 +61,13 @@
 
             <label class="checkbox-inline"><form:radiobutton path="productStatus" id="status"
                                                              value="active"/> Active </label>
-
             <label class="checkbox-inline"><form:radiobutton path="productStatus" id="status"
                                                              value="inactive"/> Inactive </label>
-
         </div>
 
 
         <div class="form-group">
-            <label for="unitInStock">Units In Stock</label>
+            <label for="unitInStock">Units In Stock</label> <form:errors path="unitInStock" cssStyle="color: #ff0000"/>
             <form:input path="unitInStock" id="unitInStock" class="form-Control"/>
         </div>
 

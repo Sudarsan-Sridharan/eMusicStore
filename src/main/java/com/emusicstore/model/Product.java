@@ -1,8 +1,12 @@
 package com.emusicstore.model;
 
+import org.hibernate.validator.constraints.NotBlank;
+import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 
 /**
  * Created by vbilenko on 9/24/16.
@@ -15,18 +19,23 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String productId;
+
+    @NotEmpty(message = "The product name cannot be empty!")
     private String productName;
     private String productCategory;
     private String productDescription;
+
+    @Min(value=0, message = "The product price cannot be negative")
     private double productPrice;
     private String productCondition;
     private String productStatus;
     private String productManufacturer;
+
+    @Min(value=0, message = "The Product In Stock field cannot be negative")
     private int unitInStock;
 
     @Transient
     private MultipartFile productImage;
-
 
     public String getProductName() {
         return productName;
