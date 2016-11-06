@@ -2,6 +2,7 @@ package com.emusicstore.dao.impl;
 
 import com.emusicstore.dao.CartDao;
 import com.emusicstore.model.Cart;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,6 +11,7 @@ import java.util.Map;
  * Created by vbilenko on 11/5/16.
  */
 
+@Repository
 public class CartDaoImpl implements CartDao {
 
     private Map<String, Cart> listOfCarts;
@@ -42,7 +44,7 @@ public class CartDaoImpl implements CartDao {
     public void delete(String cartId) {
         if (!listOfCarts.keySet().contains(cartId)) {
             throw new IllegalArgumentException(String.format("Cannot delete cart. A cart with this ID(%) "
-                    + "doesn't" + "exists!", cartId);
+                    + "doesn't" + "exists!", cartId));
         }
         listOfCarts.remove(cartId);
     }
