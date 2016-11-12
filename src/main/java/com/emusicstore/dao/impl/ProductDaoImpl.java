@@ -11,9 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- * Created by vbilenko on 10/24/16.
- */
 
 @Repository
 @Transactional
@@ -51,12 +48,9 @@ public class ProductDaoImpl implements ProductDao {
         return products;
     }
 
-    public void deleteProduct(String id) {
+    public void deleteProduct (String id) {
         Session session = sessionFactory.getCurrentSession();
         session.delete(getProductById(id));
         session.flush();
-
     }
-
-
 }
