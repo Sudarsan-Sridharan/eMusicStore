@@ -1,17 +1,14 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
-  User: vbilenko
-  Date: 9/24/16
-  Time: 12:09
+  User: Le
+  Date: 1/2/2016
+  Time: 5:14 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <html>
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,10 +17,10 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Welcome to eMusic!</title>
+    <title>My Music Store</title>
 
     <!-- Angular JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js" > </script>
 
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
@@ -35,11 +32,10 @@
     <link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
 
 
+
 </head>
-
-
 <!-- NAVBAR
-  ================================================== -->
+================================================== -->
 <body>
 <div class="navbar-wrapper">
     <div class="container">
@@ -54,22 +50,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">eMusicStore</a>
+                    <a class="navbar-brand" href="<c:url value="/" /> ">Le's Music Store</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-
                         <li><a href="<c:url value="/" /> ">Home</a></li>
-
-                        <li><a href="<c:url value="/productList" /> ">Product</a></li>
-
+                        <li><a href="<c:url value="/product/productList" />">Products</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-
                     <ul class="nav navbar-nav pull-right">
-                        <li><a href="<c:url value="/admin" /> ">Admin</a></li>
+                        <li><a href="<c:url value="/admin/" />">Admin</a></li>
                     </ul>
-
                 </div>
             </div>
         </nav>
