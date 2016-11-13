@@ -2,12 +2,14 @@ package com.emusicstore.service;
 
 import com.emusicstore.model.Product;
 
+import java.util.List;
+
 /**
  * Created by vbilenko on 11/12/16.
  */
 public interface ProductService {
 
-    java.util.List<Product> getProductList();
+    List<Product> getProductList();
 
     Product getProductById(int id);
 

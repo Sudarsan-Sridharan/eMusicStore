@@ -10,23 +10,22 @@ import javax.persistence.Id;
  */
 
 @Entity
-public class Users {
+public class Users{
 
     @Id
     @GeneratedValue
-    private int userId;
+    private int usersId;
     private String username;
     private String password;
     private boolean enabled;
     private int customerId;
 
-
-    public int getUserId() {
-        return userId;
+    public int getUsersId() {
+        return usersId;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setUsersId(int usersId) {
+        this.usersId = usersId;
     }
 
     public String getUsername() {
