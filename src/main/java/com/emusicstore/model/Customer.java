@@ -10,16 +10,17 @@ import java.io.Serializable;
  * Created by vbilenko on 11/12/16.
  */
 
-@Entity
-public class Customer implements Serializable {
 
-    private static final long serialVersionUID = 2681338023869468110L;
+@Entity
+public class Customer implements Serializable{
+
+    private static final long serialVersionUID = 5140900014886997914L;
 
     @Id
     @GeneratedValue
     private int customerId;
 
-    @NotEmpty(message = "The customer name must not be null.")
+    @NotEmpty (message = "The customer name must not be null.")
     private String customerName;
 
     @NotEmpty (message = "The customer email must not be null.")
@@ -47,11 +48,11 @@ public class Customer implements Serializable {
     @JsonIgnore
     private Cart cart;
 
-    public int getCustomerId() {
+    public int getcustomerId() {
         return customerId;
     }
 
-    public void setCustomerId(int customerId) {
+    public void setcustomerId(int customerId) {
         this.customerId = customerId;
     }
 
