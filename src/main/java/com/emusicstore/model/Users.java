@@ -1,6 +1,8 @@
 package com.emusicstore.model;
 
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -13,7 +15,8 @@ import javax.persistence.Id;
 public class Users{
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy = "increment")
     private int usersId;
     private String username;
     private String password;
