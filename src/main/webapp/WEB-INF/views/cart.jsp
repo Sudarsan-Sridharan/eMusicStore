@@ -6,9 +6,10 @@
         <section>
             <div class="jumbotron">
                 <div class="container">
+                    <h1>Cart</h1>
+
+                    <p>All the selected products in your shopping cart</p>
                 </div>
-                <h2>Your Shopping Cart</h2>
-                <p>All the selected product in your shopping cart:</p>
             </div>
         </section>
 
@@ -19,6 +20,7 @@
                             class="glyphicon glyphicon-remove-sign"></span> Clear Cart</a>
                 </div>
 
+                <br><br>
                 <table class="table table-hover">
                     <tr>
                         <th>Product</th>
@@ -33,24 +35,26 @@
                         <td>{{item.quantity}}</td>
                         <td>{{item.totalPrice}}</td>
                         <td><a href="#" class="label label-danger" ng-click="removeFromCart(item.product.productId)">
-                            <span class="glyphicon glyphicon-remove"></span> Remove</a>
-                        </td>
+                            <span class="glyphicon glyphicon-remove"></span>remove</a></td>
                     </tr>
                     <tr>
                         <th></th>
                         <th></th>
                         <th>Grand Total</th>
-                        <th>{{cart.grandTotal}}</th>
+                        <th>{{calGrandTotal()}}</th>
                         <th></th>
                     </tr>
                 </table>
 
-                <a href="<spring:url value="/productList" /> " class="btn btn-default">Continue Shopping</a>
+                <a href="<spring:url value="/productList" />" class="btn btn-default">Continue Shopping</a>
             </div>
         </section>
 
     </div>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
 <script src="<c:url value="/resources/js/controller.js" /> "></script>
+
 <%@include file="/WEB-INF/views/template/footer.jsp" %>
+…
