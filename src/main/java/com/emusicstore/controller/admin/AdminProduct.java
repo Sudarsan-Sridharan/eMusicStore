@@ -2,7 +2,6 @@ package com.emusicstore.controller.admin;
 
 import com.emusicstore.model.Product;
 import com.emusicstore.service.ProductService;
-import com.sun.tools.internal.ws.wsdl.document.jaxws.Exception;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.io.File;
