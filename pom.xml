@@ -8,6 +8,7 @@
     <artifactId>emusicstore</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -143,6 +144,7 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
 
