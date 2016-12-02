@@ -1,9 +1,11 @@
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/controller/RegisterController.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/dao/impl/CartDaoImpl.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/dao/CartDao.java
+/Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/service/CustomerOrderService.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/model/Product.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/service/impl/CustomerServiceImpl.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/service/impl/CartItemServiceImpl.java
+/Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/dao/CustomerOrderDao.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/model/CartItem.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/model/CustomerOrder.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/service/impl/CartServiceImpl.java
@@ -18,6 +20,8 @@
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/dao/CustomerDao.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/dao/impl/ProductDaoImpl.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/dao/impl/CartItemDaoImpl.java
+/Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/dao/impl/CustomerOrderDaoImpl.java
+/Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/service/impl/CustomerOrderServiceImpl.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/controller/ProductController.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/controller/admin/AdminHome.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/controller/HomeController.java
@@ -25,6 +29,7 @@
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/service/CartService.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/service/impl/ProductServiceImpl.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/dao/CartItemDao.java
+/Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/controller/admin/OrderController.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/model/Customer.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/controller/admin/AdminProduct.java
 /Users/vbilenko/development/eMusicStore/src/main/java/com/emusicstore/controller/CartResources.java
