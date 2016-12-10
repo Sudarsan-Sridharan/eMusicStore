@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
-  User: vbilenko
-  Date: 11/2/2016
+  User: Vladimir
+  Date: 12/2/16
   Time: 5:14 PM
   To change this template use File | Settings | File Templates.
 --%>
@@ -57,7 +57,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<c:url value="/" /> ">eMusicStore</a>
+                    <a class="navbar-brand" href="<c:url value="/" /> ">Le's Music Store</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
