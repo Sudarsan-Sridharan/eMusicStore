@@ -2,15 +2,263 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9818ba5-a8a9-4fc7-9f63-446c0b41eb51" name="Default" comment="Initial commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/collapsed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/expanded.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/external.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/newwindow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/maven-base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/maven-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/dependencies.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/dependency-convergence.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/plugins.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/project-info.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/project-summary.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\Users\vbilenko\development\eMusicStore\WEB-INF\resources\images\13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\Users\vbilenko\development\eMusicStore\WEB-INF\resources\images\14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\WEB-INF\resources\images\10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\WEB-INF\resources\images\11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\WEB-INF\resources\images\12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\WEB-INF\resources\images\5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\WEB-INF\resources\images\6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\WEB-INF\resources\images\7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\WEB-INF\resources\images\8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/\WEB-INF\resources\images\9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/CartResources.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/HomeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/ProductController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/RegisterController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/admin/AdminHome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/admin/AdminProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/admin/CartController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/admin/OrderController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/CartDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/CartItemDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/CustomerDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/CustomerOrderDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/ProductDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CartDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CartItemDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CustomerDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CustomerOrderDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/ProductDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Authorities.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/BillingAddress.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Cart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/CartItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Customer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/CustomerOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Product.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/ShippingAddress.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Users.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/CartItemService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/CartService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/CustomerOrderService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/CustomerService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/ProductService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CartItemServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CartServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CustomerOrderServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CustomerServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/ProductServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-instrument-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-instrument-tomcat-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-jms-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-portlet-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-websocket-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/images/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/images/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/applicationContext.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/CartResources.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/CartResources.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/HomeController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/ProductController.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/ProductController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/RegisterController.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/RegisterController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/admin/AdminHome.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/admin/AdminHome.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/admin/AdminProduct.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/admin/AdminProduct.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/admin/CartController.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/admin/CartController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/admin/OrderController.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/controller/admin/OrderController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/CartDao.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/CartDao.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/CartItemDao.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/CartItemDao.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/CustomerDao.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/CustomerDao.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/CustomerOrderDao.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/CustomerOrderDao.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/ProductDao.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/ProductDao.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/CartDaoImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/CartDaoImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/CartItemDaoImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/CartItemDaoImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/CustomerDaoImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/CustomerDaoImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/CustomerOrderDaoImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/CustomerOrderDaoImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/ProductDaoImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/dao/impl/ProductDaoImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Authorities.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Authorities.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/BillingAddress.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/BillingAddress.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Cart.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Cart.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/CartItem.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/CartItem.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Customer.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Customer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/CustomerOrder.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/CustomerOrder.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Product.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Product.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/ShippingAddress.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/ShippingAddress.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Users.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/model/Users.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/CartItemService.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/CartItemService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/CartService.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/CartService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/CustomerOrderService.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/CustomerOrderService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/CustomerService.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/CustomerService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/ProductService.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/ProductService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/CartItemServiceImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/CartItemServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/CartServiceImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/CartServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/CustomerOrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/CustomerOrderServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/CustomerServiceImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/CustomerServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/classes/com/emusicstore/service/impl/ProductServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/flows/checkout/checkOutCancelled.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/flows/checkout/checkOutCancelled.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/flows/checkout/checkout-flow.xml" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/flows/checkout/checkout-flow.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/flows/checkout/collectCustomerInfo.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/flows/checkout/collectCustomerInfo.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/flows/checkout/collectShippingDetail.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/flows/checkout/collectShippingDetail.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/flows/checkout/invalidCartWarning.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/flows/checkout/invalidCartWarning.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/flows/checkout/orderConfirmation.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/flows/checkout/orderConfirmation.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/flows/checkout/thankCustomer.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/flows/checkout/thankCustomer.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/annotations-3.0.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/annotations-3.0.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/commons-codec-1.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/couchbase-client-1.4.11.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/couchbase-client-1.4.11.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/ecj-4.5.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/ecj-4.5.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/h2-1.4.190.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/h2-1.4.190.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-4.0.1.Final.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-4.0.1.Final.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-4.2.0.Final.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-4.2.0.Final.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.3.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/httpcore-4.3.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/httpcore-nio-4.3.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/httpcore-nio-4.3.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.5.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.5.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.5.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.5.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.5.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.5.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.15.0-GA.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.15.0-GA.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jcip-annotations-1.0.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jcip-annotations-1.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jcommander-1.48.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jcommander-1.48.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jettison-1.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jettison-1.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jsr305-3.0.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jsr305-3.0.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/memcached-session-manager-2.0.0.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/memcached-session-manager-2.0.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/memcached-session-manager-tc8-2.0.0.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/memcached-session-manager-tc8-2.0.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/netty-3.5.5.Final.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/netty-3.5.5.Final.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/ognl-2.6.11.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/ognl-2.6.11.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-binding-2.3.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-binding-2.3.3.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-js-2.3.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-js-2.3.3.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-js-resources-2.3.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-js-resources-2.3.3.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-3.2.5.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-security-config-3.2.5.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-3.2.5.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-security-core-3.2.5.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-3.2.5.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-security-web-3.2.5.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-webflow-2.3.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-webflow-2.3.3.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.4.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/spymemcached-2.12.0.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/spymemcached-2.12.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/standard-1.1.2.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/standard-1.1.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-api-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-api-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-el-api-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-el-api-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-jasper-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-jasper-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-logging-juli-8.5.2.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-logging-juli-8.5.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jasper-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-jasper-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jasper-el-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-jasper-el-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jsp-api-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-jsp-api-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-juli-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-juli-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-redis-session-8.5.5.0.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-redis-session-8.5.5.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-servlet-api-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-servlet-api-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-util-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-util-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/tomcat-util-scan-8.5.5.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/tomcat-util-scan-8.5.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.0.0.GA.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/validation-api-1.0.0.GA.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/webapp-runner-8.5.5.2.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/webapp-runner-8.5.5.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/css/carousel.css" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/css/carousel.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/css/main.css" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/images/accessory.jpg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/accessory.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/images/carousel/1.jpeg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/carousel/1.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/images/carousel/2.jpeg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/carousel/2.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/images/carousel/3.jpeg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/carousel/3.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/images/instrument.jpg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/instrument.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/images/record.jpg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/record.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/images/showroom.jpg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/showroom.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/js/controller.js" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/js/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/resources/js/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/js/jquery-3.1.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/about.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/about.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/addProduct.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/addProduct.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/admin.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/admin.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/cart.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/cart.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/customerManagement.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/customerManagement.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/editProduct.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/editProduct.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/home.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/login.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/productInventory.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/productInventory.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/productList.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/productList.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/registerCustomer.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/registerCustomer.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/registerCustomerSuccess.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/registerCustomerSuccess.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/template/footer.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/template/footer.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/template/header.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/template/header.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/viewProduct.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/viewProduct.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dependency/webapp-runner.jar" afterPath="$PROJECT_DIR$/target/dependency/webapp-runner.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/eMusicStore_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/eMusicStore_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/eMusicStore_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/eMusicStore_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productInventory.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productInventory.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/cart.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/cart.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/template/header.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/template/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/viewProduct.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-1.0-SNAPSHOT/WEB-INF/views/viewProduct.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="eMusicStore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,21 +289,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="productList.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productInventory.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productInventory.jsp">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -84,6 +322,7 @@
       <find>/productList</find>
       <find>cart</find>
       <find>le's</find>
+      <find>13.png</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,7 +377,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerCustomer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
@@ -148,6 +386,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productInventory.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1186,7 +1425,7 @@
       <workItem from="1480652642083" duration="2920000" />
       <workItem from="1481325480140" duration="8184000" />
       <workItem from="1481392260561" duration="1921000" />
-      <workItem from="1481395797242" duration="5088000" />
+      <workItem from="1481395797242" duration="6635000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1474755145875</created>
@@ -1206,7 +1445,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231157000" />
+    <option name="totallyTimeSpent" value="232704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1225,7 +1464,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24458599" sideWeight="0.5028694" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20444763" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20444763" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1240,10 +1479,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3656051" sideWeight="0.49713057" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3656051" sideWeight="0.49713057" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29171973" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.83439493" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="4" y="359" width="1436" height="205" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6700637" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="4" y="359" width="1436" height="205" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22740315" sideWeight="0.6435185" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26327115" sideWeight="0.33333334" order="4" side_tool="true" content_ui="tabs" />
@@ -1601,14 +1840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="168" column="28" lean-forward="false" selection-start-line="168" selection-start-column="28" selection-end-line="168" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1622,7 +1853,7 @@
         <state relative-caret-position="546">
           <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
-            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1703,6 +1934,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
         </state>
       </provider>

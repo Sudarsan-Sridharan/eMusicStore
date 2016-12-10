@@ -6,7 +6,8 @@
 
     <groupId>com.emusicstore</groupId>
     <artifactId>emusicstore</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>2.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
 
 
     <dependencies>
