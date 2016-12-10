@@ -20,7 +20,13 @@
     <title>My Music Store</title>
 
     <!-- Angular JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js" > </script>
+
+    <%--Jquery--%>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <%--Data Table--%>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
@@ -30,6 +36,8 @@
 
     <!-- Main CSS -->
     <link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
+
+    <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
 
 
 </head>
@@ -49,33 +57,28 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<c:url value="/" /> ">eMusic Store</a>
+                    <a class="navbar-brand" href="<c:url value="/" /> ">eMusicStore</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
-
                     <ul class="nav navbar-nav">
                         <li><a href="<c:url value="/" /> ">Home</a></li>
-                        <li><a href="<c:url value="/product/productList" />">Products</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="<c:url value="/product/productList/all" />">Products</a></li>
+                        <li><a href="<c:url value="/about" />">About Us</a></li>
                     </ul>
-
                     <ul class="nav navbar-nav pull-right">
-
                         <c:if test="${pageContext.request.userPrincipal.name != null}">
-                            <li><a>Welcome, ${pageContext.request.userPrincipal.name}!</a></li>
-                            <li><a href="<c:url value="/j_spring_security_logout" /> ">Logout</a></li>
+                            <li><a>Welcome: ${pageContext.request.userPrincipal.name}</a></li>
+                            <li><a href="<c:url value="/j_spring_security_logout" />">Logout</a></li>
                             <c:if test="${pageContext.request.userPrincipal.name != 'admin'}">
-                                <li><a href="<c:url value="/customer/cart" /> ">Cart</a></li>
+                                <li><a href="<c:url value="/customer/cart" />">Cart</a></li>
                             </c:if>
-
-                            <c:if test="${pageContext.request.userPrincipal.name == 'admin'}">
-                                <li><a href="<c:url value="/admin" /> ">Admin</a></li>
+                            <c:if test="${pageContext.request.userPrincipal.name  == 'admin'}">
+                                <li><a href="<c:url value="/admin" />">Admin</a></li>
                             </c:if>
                         </c:if>
-
-                        <c:if test="${pageContext.request.userPrincipal.name == null}">
+                        <c:if test="${pageContext.request.userPrincipal.name  == null}">
                             <li><a href="<c:url value="/login/" />">Login</a></li>
-                            <li><a href="<c:url value="/register/" />">Register</a></li>
+                            <li><a href="<c:url value="/register" />">Register</a></li>
                         </c:if>
                     </ul>
                 </div>
