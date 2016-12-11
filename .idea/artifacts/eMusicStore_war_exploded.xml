@@ -7,6 +7,7 @@
           <element id="module-output" name="eMusicStore" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.4.RELEASE" />
