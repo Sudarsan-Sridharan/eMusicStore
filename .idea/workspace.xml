@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9818ba5-a8a9-4fc7-9f63-446c0b41eb51" name="Default" comment="Initial commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/accessory.jpg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/accessory.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/instrument.jpg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/instrument.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/record.jpg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/record.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/showroom.jpg" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/resources/images/showroom.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/applicationContext.xml" />
     </list>
     <ignored path="eMusicStore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +37,11 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="49" column="96" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="140">
+              <caret line="49" column="92" lean-forward="true" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
               <folding>
-                <marker date="1483655179000" expanded="true" signature="4505:4567" ph="SELECT usern... authorities" />
-                <marker date="1483655179000" expanded="true" signature="4634:4698" ph="SELECT usern... users" />
+                <marker date="1483655612000" expanded="true" signature="4498:4560" ph="SELECT usern... authorities" />
+                <marker date="1483655612000" expanded="true" signature="4627:4691" ph="SELECT usern... users" />
               </folding>
             </state>
           </provider>
@@ -1092,7 +1087,7 @@
       <workItem from="1483591435001" duration="1398000" />
       <workItem from="1483593039662" duration="2156000" />
       <workItem from="1483595411785" duration="1385000" />
-      <workItem from="1483599173480" duration="7206000" />
+      <workItem from="1483599173480" duration="7628000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1474755145875</created>
@@ -1112,7 +1107,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250462000" />
+    <option name="totallyTimeSpent" value="250884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1125,7 +1120,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1149,7 +1144,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29171973" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42675158" sideWeight="0.49713057" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6267516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="4" y="359" width="1436" height="205" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6267516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="4" y="359" width="1436" height="205" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28909612" sideWeight="0.6435185" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26327115" sideWeight="0.33333334" order="6" side_tool="true" content_ui="tabs" />
@@ -1565,11 +1560,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="49" column="96" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="49" column="92" lean-forward="true" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
           <folding>
-            <marker date="1483655179000" expanded="true" signature="4505:4567" ph="SELECT usern... authorities" />
-            <marker date="1483655179000" expanded="true" signature="4634:4698" ph="SELECT usern... users" />
+            <marker date="1483655612000" expanded="true" signature="4498:4560" ph="SELECT usern... authorities" />
+            <marker date="1483655612000" expanded="true" signature="4627:4691" ph="SELECT usern... users" />
           </folding>
         </state>
       </provider>
