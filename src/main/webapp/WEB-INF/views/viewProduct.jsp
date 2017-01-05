@@ -8,7 +8,7 @@
         <div class="page-header">
             <h1>Product Detail</h1>
 
-            <p class="lead">Here is the detail information of the product!</p>
+            <p class="lead">Here is the detailed information of the product!</p>
         </div>
 
         <div class="container" ng-app = "cartApp">
@@ -54,5 +54,6 @@
 
 
 
-        <script src="<c:url value="/resources/js/controller.js" /> "></script>
         <%@include file="/WEB-INF/views/template/footer.jsp" %>
+        <script src="<c:url value="/resources/js/controller.js" /> "></script>
+
