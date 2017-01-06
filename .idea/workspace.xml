@@ -4,8 +4,6 @@
     <list default="true" id="e9818ba5-a8a9-4fc7-9f63-446c0b41eb51" name="Default" comment="Initial commit">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/viewProduct.jsp" afterPath="$PROJECT_DIR$/target/emusicstore-2.0.1-SNAPSHOT/WEB-INF/views/viewProduct.jsp" />
     </list>
     <ignored path="eMusicStore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +34,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="viewProduct.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding>
+                <marker date="1483660772000" expanded="true" signature="4491:4553" ph="SELECT usern... authorities" />
+                <marker date="1483660772000" expanded="true" signature="4620:4684" ph="SELECT usern... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewProduct.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="432">
+              <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -153,8 +164,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productInventory.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -1131,7 +1142,7 @@
       <workItem from="1483591435001" duration="1398000" />
       <workItem from="1483593039662" duration="2156000" />
       <workItem from="1483595411785" duration="1385000" />
-      <workItem from="1483599173480" duration="10856000" />
+      <workItem from="1483599173480" duration="11299000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1474755145875</created>
@@ -1151,7 +1162,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254112000" />
+    <option name="totallyTimeSpent" value="254555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1579,17 +1590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <marker date="1483657474000" expanded="true" signature="4512:4574" ph="SELECT usern... authorities" />
-            <marker date="1483657474000" expanded="true" signature="4641:4705" ph="SELECT usern... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -1608,9 +1608,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        <state relative-caret-position="432">
+          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <marker date="1483660772000" expanded="true" signature="4491:4553" ph="SELECT usern... authorities" />
+            <marker date="1483660772000" expanded="true" signature="4620:4684" ph="SELECT usern... users" />
+          </folding>
         </state>
       </provider>
     </entry>
