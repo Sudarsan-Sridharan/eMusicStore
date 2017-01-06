@@ -55,5 +55,5 @@
 
 
         <%@include file="/WEB-INF/views/template/footer.jsp" %>
-        <script src="<c:url value="WEB-INF/resources/js/controller.js" /> "></script>
+        <script src="<c:url value="/resources/js/controller.js" /> "></script>
 
