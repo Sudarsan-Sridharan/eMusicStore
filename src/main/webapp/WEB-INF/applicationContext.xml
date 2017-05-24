@@ -19,21 +19,21 @@
 
     <!--Local PostgreSQL-->
 
-    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-    <property name="driverClassName" value="org.postgresql.Driver" />
-    <property name="url" value="jdbc:postgresql://localhost:5432/emusicstore" />
-    <property name="username" value="admin" />
-    <property name="password" value="admin" />
-    </bean>
-
-    <!--MySQL DB-->
-
     <!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
-    <!--<property name="driverClassName" value="com.mysql.jdbc.Driver" />-->
-    <!--<property name="url" value="jdbc:mysql://localhost:3306/springjdbc" />-->
+    <!--<property name="driverClassName" value="org.postgresql.Driver" />-->
+    <!--<property name="url" value="jdbc:postgresql://localhost:5432/emusicstore" />-->
     <!--<property name="username" value="admin" />-->
     <!--<property name="password" value="admin" />-->
     <!--</bean>-->
+
+    <!--MySQL DB-->
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+    <property name="url" value="jdbc:mysql://localhost:3306/springjdbc" />
+    <property name="username" value="admin" />
+    <property name="password" value="admin" />
+    </bean>
 
     <!--H2 Embedded DB-->
 
@@ -50,8 +50,8 @@
             <props>
 
                 <!--<prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>-->
-                <!--<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>-->
-                <prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <!--<prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>-->
 
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
                 <prop key="hibernate.show_sql">true</prop>
